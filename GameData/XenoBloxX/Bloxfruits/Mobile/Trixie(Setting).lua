@@ -42,7 +42,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   Translator = true; -- true/false
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RenoBitkub/LemonHub/refs/heads/main/Mobile/Limited/huyzkuto/Loading_UI/MainBloxFruit.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixieXyz/XenoBloxX/refs/heads/main/GameLoadData/LunarGuard/MainHub/XenoBloxX/Trixie(Setting).lua"))()
   end
   })
 
