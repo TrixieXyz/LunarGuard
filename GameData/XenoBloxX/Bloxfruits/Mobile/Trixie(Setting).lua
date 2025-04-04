@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Xeno BloxX Script [ Paid ]",
-         Animation = "LunarGuard X Xeno BloxX"
+         Title = "Xeno BloxX Script [ Premium ]",
+         Animation = "LunarGuard Xeno BloxX"
          },
         Key = {
         KeySystem = true,
@@ -13,7 +13,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Keys = {"4DFJVWZDB5"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Correct Key Loading Script...",
+        CorrectKey = "Loading Script...",
        Incorrectkey = "Invalid Key",
        CopyKeyLink = "Copied Getkey Link"
       }
@@ -23,10 +23,10 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=74871889531865",
        Size = {40, 40},
-       Color = Color3.fromRGB(20, 10, 30),
+       Color = Color3.fromRGB(30, 20, 30),
        Corner = true,
        Stroke = true,
-       StrokeColor = Color3.fromRGB(255, 0, 0)
+       StrokeColor = Color3.fromRGB(255, 10, 10)
       })
       
 ------ Tab
