@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Lemon Script [ Paid ]",
+         Title = "Xeno BloxX Script [ Paid ]",
          Animation = "Welcome"
          },
         Key = {
@@ -31,11 +31,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Main"})
-     local Tab2o = MakeTab({Name = "Script KaiTun V2"})
+     local Tab2o = MakeTab({Name = "Script KaiTun"})
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Lemon Hub Premium",
+     Name = "Xeno BloxX Hub Premium",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -47,7 +47,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/RenoBitkub/LemonHub/r
   })
 
    AddButton(Tab2o, {
-     Name = "KaiTun Lemon Hub",
+     Name = "KaiTun Xeno BloxX Hub",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -88,17 +88,17 @@ getgenv().ConfigsKaitun = {
 
 		-- : World 2
 
-		["Midnight Blade"] = false,
+		["Midnight Blade"] = true,
 
-		["Shisui"] = false,
+		["Shisui"] = true,
 
-		["Saddi"] = false,
+		["Saddi"] = true,
 
-		["Wando"] = false,
+		["Wando"] = true,
 
 		["Rengoku"] = true,
 
-		["True Triple Katana"] = false,
+		["True Triple Katana"] = true,
 
 		-- : World 3
 
@@ -124,7 +124,7 @@ getgenv().ConfigsKaitun = {
 
 		-- : World 2
 
-		["Kabucha"] = false,
+		["Kabucha"] = true,
 
 		-- : World 3
 
@@ -142,7 +142,7 @@ getgenv().ConfigsKaitun = {
 
 		["Sword"] = true,
 
-		["Devil Fruits"] = false,
+		["Devil Fruits"] = true,
 
 
 
@@ -172,7 +172,7 @@ getgenv().ConfigsKaitun = {
 
 			["Skypiea"] = true,
 
-			["Fishman"] = false,
+			["Fishman"] = true,
 
 		},
 
@@ -210,9 +210,9 @@ getgenv().ConfigsKaitun = {
 
 		["Shark Anchor"] = {
 
-			["Enable"] = false,
+			["Enable"] = true,
 
-			["Money"] = 25_000_000,
+			["Money"] = 100_000_000,
 
 		},
 
@@ -222,7 +222,7 @@ getgenv().ConfigsKaitun = {
 
 	["Currency"] = {
 
-		["Lock Fragment"] = 25_000,
+		["Lock Fragment"] = 50_000,
 
 	},
 
@@ -232,7 +232,7 @@ getgenv().ConfigsKaitun = {
 
 		["White Screen"] = false,
 
-		["Booster FPS"] = false,
+		["Booster FPS"] = true,
 
 		["Lock FPS"] = 240,
 
