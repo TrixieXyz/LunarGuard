@@ -3,11 +3,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "Xeno BloxX Script [ Paid ]",
-         Animation = "Welcome"
+         Animation = "LunarGuard X Xeno BloxX"
          },
         Key = {
         KeySystem = true,
-        Title = "Key System",
+        Title = "Key System Official",
         Description = "https://discord.gg/AfcRjyTd",
         KeyLink = "https://scwz.me/4FaBz2",
         Keys = {"4DFJVWZDB5"},
@@ -32,6 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Main"})
      local Tab2o = MakeTab({Name = "Script KaiTun"})
+     local Tab3o = MakeTab({Name = "Script HopServer"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -243,5 +244,27 @@ getgenv().ConfigsKaitun = {
 }
 
 loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
+  end
+  })
+AddButton(Tab3o, {
+     Name = "Hop Server rip_Idra",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnBeoDepTrai/refs/heads/main/Rip_Indra"))()
+  end
+  })
+AddButton(Tab3o, {
+     Name = "Hop Server Dough King V2",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnBeoDepTrai/refs/heads/main/Dough_King"))()
   end
   })
