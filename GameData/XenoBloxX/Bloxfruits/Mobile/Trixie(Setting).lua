@@ -213,7 +213,7 @@ getgenv().ConfigsKaitun = {
 
 			["Enable"] = true,
 
-			["Money"] = 100_000_000,
+			["Money"] = 1_000_000_000,
 
 		},
 
@@ -223,7 +223,7 @@ getgenv().ConfigsKaitun = {
 
 	["Currency"] = {
 
-		["Lock Fragment"] = 50_000,
+		["Lock Fragment"] = 500_000,
 
 	},
 
