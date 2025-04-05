@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "Xeno BloxX Hub All Games [ Premium ]",
-         Animation = "LunarGuard Xeno BloxX"
+         Animation = "Xeno BloxX Loading"
          },
         Key = {
         KeySystem = true,
@@ -22,11 +22,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=74871889531865",
-       Size = {40, 40},
-       Color = Color3.fromRGB(30, 20, 30),
+       Size = {30, 40},
+       Color = Color3.fromRGB(60, 20, 30),
        Corner = true,
        Stroke = true,
-       StrokeColor = Color3.fromRGB(255, 10, 10)
+       StrokeColor = Color3.fromRGB(350, 10, 20)
       })
       
 ------ Tab
