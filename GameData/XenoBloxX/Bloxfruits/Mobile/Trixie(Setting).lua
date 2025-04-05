@@ -7,7 +7,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          },
         Key = {
         KeySystem = true,
-        Title = "Key System Official",
+        Title = "Key System Official 🐉",
         Description = "https://discord.gg/AfcRjyTd",
         KeyLink = "https://scwz.me/4FaBz2",
         Keys = {"4DFJVWZDB5"},
@@ -22,7 +22,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=74871889531865",
-       Size = {30, 40},
+       Size = {10, 10},
        Color = Color3.fromRGB(60, 20, 30),
        Corner = true,
        Stroke = true,
@@ -272,7 +272,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnBeoDepT
   })
 
 AddButton(Tab4o, {
-     Name = "Soon",
+     Name = "Soon 🗓️",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -283,7 +283,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixieXyz/LunarGuard/
   })
 
 AddButton(Tab5o, {
-     Name = "Soon",
+     Name = "Soon 🗓️",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
