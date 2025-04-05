@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Xeno BloxX Script [ Premium ]",
+         Title = "Xeno BloxX Hub All Games [ Premium ]",
          Animation = "LunarGuard Xeno BloxX"
          },
         Key = {
@@ -30,13 +30,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Main"})
-     local Tab2o = MakeTab({Name = "Script KaiTun"})
-     local Tab3o = MakeTab({Name = "Script HopServer"})
+     local Tab1o = MakeTab({Name = "Script Main BF"})
+     local Tab2o = MakeTab({Name = "Script KaiTun BF"})
+     local Tab3o = MakeTab({Name = "Script HopServer BF"})
+     local Tab4o = MakeTab({Name = "Script Auto Bounty BF"})
+     local Tab5o = MakeTab({Name = "Script Aimbot BF"})
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Xeno BloxX Hub Premium",
+     Name = "Xeno BloxX Hub",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -247,7 +249,7 @@ loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0
   end
   })
 AddButton(Tab3o, {
-     Name = "Hop Server rip_Idra",
+     Name = "Hop Server rip_indra",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -258,7 +260,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnBeoDepT
   end
   })
 AddButton(Tab3o, {
-     Name = "Hop Server Dough King V2",
+     Name = "Hop Server Katakuri V2",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -266,5 +268,28 @@ AddButton(Tab3o, {
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnBeoDepTrai/refs/heads/main/Dough_King"))()
+  end
+  })
+
+AddButton(Tab4o, {
+     Name = "Soon",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixieXyz/LunarGuard/refs/heads/main/GameData/XenoBloxX/Bloxfruits/Mobile/Trixie(Setting).lua"))()
+  end
+  })
+
+AddButton(Tab5o, {
+     Name = "Soon",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixieXyz/XenoBloxX/refs/heads/main/GameLoadData/LunarGuard/MainHub/XenoBloxX/Trixie(Setting).lua"))()
   end
   })
