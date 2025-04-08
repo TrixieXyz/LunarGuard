@@ -10,11 +10,13 @@ until game.Players.LocalPlayer
 if  not game:IsLoaded() then
     game.Loaded:Wait();
 end
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/UiRedzV5/refs/heads/main/DemoUi.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/UiRedzV5/refs/heads/main/DemoUi.lua"))();
 
-       local Window = MakeWindow({
-         Hub = {
-         Title = "Xeno BloxX Hub All Games [ Premium ]",
+       local Windows = redzlib:MakeWindow({
+	Title = "Xeno BloxX Hub [ Premium ]",
+	SubTitle = "_Trixie",
+	SaveFolder = "Blox Fruits"
+}),
          Animation = "Xeno BloxX Loading"
          },
         Key = {
