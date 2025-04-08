@@ -1,3 +1,15 @@
+print("Break");
+local v0 = require(game:GetService("ReplicatedStorage").Notification);
+v0.new("<Color=Cyan>Please Wait for Hub to Return<Color=/>"):Display();
+wait(0.5);
+v0.new("<Color=Yellow>Error 1001<Color=/>"):Display();
+wait(1);
+repeat
+    wait();
+until game.Players.LocalPlayer
+if  not game:IsLoaded() then
+    game.Loaded:Wait();
+end
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
        local Window = MakeWindow({
